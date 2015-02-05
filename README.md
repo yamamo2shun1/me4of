@@ -1,7 +1,10 @@
 # me4of
 Max External Object included OpenFrameworks code and to control OpenFrameworks directly
 
-## A. Quickstart
+## A. Demo
+* http://youtu.be/m4ovWBJz-gg
+
+## B. Quickstart
 
   1. Download the of_[version]_vs_release.zip.  
      http://openframeworks.cc/download/  
@@ -21,7 +24,7 @@ Max External Object included OpenFrameworks code and to control OpenFrameworks d
     ```
   7. Build the project. After than, Add the full path of `of_v0.8.4_vs_release\apps\myapps\me4of~\bin` to Max's File Preferences. Or copy .mxe to the existing path in File Preferences.  
 
-##B. Make project by yourself
+## C. Make project by yourself
 
   1. same process as quickstart 1-4.  
   2. Make new project by ProjectGenerator.exe.  
