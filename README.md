@@ -11,7 +11,7 @@ Max External Object included OpenFrameworks code and to control OpenFrameworks d
   2. Download the MaxSDK-6.1.4.zip.  
      https://cycling74.com/downloads/sdk/  
   3. Extract the downloaded files to any place you like.  
-  4. Copy "MaxSDK-6.1.4\c74support" folder to `of_[version]_vs_release\libs`.  
+  4. Copy `MaxSDK-6.1.4\c74support` folder to `of_[version]_vs_release\libs`.  
   5. Clone the me4of~ repository into the `of_v0.8.4_vs_release\apps\myapps`.  
     ```
     $ git clone https://github.com/tkrworks/me4of me4of~
@@ -31,8 +31,13 @@ Max External Object included OpenFrameworks code and to control OpenFrameworks d
   3. Build this project and copy all `bin\*.dll` files to the following folders.
 
     ```
+    [If you use Max7]  
     C:\Program Files\Cycling '74\Max 7\resources\support  
     C:\Program Files (x86)\Cycling '74\Max 7\resources\support  
+    
+    [If you use Max6]
+    C:\Program Files\Cycling '74\Max 6.1\support
+    C:\Program Files (x86)\Cycling '74\Max 6.1\support
     ```
   4. Modify some configurations in your project properties. The changes are as follows.  
   5. Modify ofApp.h, ofApp.cpp and Main.cpp by reference to me4of~'s code.  
